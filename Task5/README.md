@@ -78,19 +78,7 @@ npm run dev
 
 ---
 
-## 📦 Deployment Guide
-
-The project is deployment-ready. You can follow these steps:
-
-* Deploy the backend on [Render](https://render.com), [Railway](https://railway.app), or [Vercel](https://vercel.com) with environment variables.
-* Deploy the frontend on [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com).
-* Connect your API to the deployed frontend.
-* Add the live link to your resume or portfolio.
-
----
-
 ## 📚 Perfect For
-
 * New developers wanting to learn full-stack development
 * Students building portfolio projects
 * Anyone exploring real-world web app deployment with rate limiting and secure API practices
