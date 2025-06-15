@@ -88,7 +88,3 @@ npm run dev
 ## 📎 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Let me know if you want this turned into a downloadable file or need instructions for Docker, testing, or CI/CD setup.
