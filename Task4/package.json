@@ -1,0 +1,20 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "Simple login system with client and server validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

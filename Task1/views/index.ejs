@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+            font-family: Arial, sans-serif;
+            color:white;
+            display: flex;
+            min-height:100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 30%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            background: linear-gradient(to bottom, #ff6a00, #ee0979);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        .input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #3498db;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top:20px;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Details</h1>
+       <form action="/submit" method="POST" class="form">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" aria-placeholder="Enter Your name" class="input" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" aria-placeholder="Enter Password" class="input" required>
+    </div>
+    <button type="submit" class="button">Submit</button>
+
+</form>
+    </div>
+</body>
+</html>
